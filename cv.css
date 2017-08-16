@@ -1,0 +1,8 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Remove border on table. */
+.table-borderless > tbody > tr > td {
+    border: none;
+}
