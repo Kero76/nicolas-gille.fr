@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+}
+
+img {
+    border-radius: 2em;
+}
+
+/* Place text bottom picture */
+.short-description {
+    margin-top: 10px;
+}
+
+/* Subtitle style. */
+.subtitle {
+    color: grey;
+}
