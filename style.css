@@ -2,8 +2,13 @@ body {
     margin: auto;
 }
 
+/* Round border of image. */
 img {
     border-radius: 2em;
+}
+
+.project-summary {
+    text-indent: 20px;
 }
 
 /* Place text bottom picture */

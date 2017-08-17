@@ -19,36 +19,149 @@
         <div class="container">
             <div class="row">
                 <!-- Webpage menu -->
-                <nav class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
+                <nav id="main-menu" class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
                     <ul class="nav nav-pills nav-stacked">
                         <li role="presentation" class="active">
-                            <a href="index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a>
+                            <a href="index.html" role="menuitem"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a>
                         </li>
                         <li role="presentation">
-                            <a href="cv.html"><i class="fa fa-fw fa-user-o" aria-hidden="true"></i> CV</a>
+                            <a href="cv.html" role="menuitem"><i class="fa fa-fw fa-user-o" aria-hidden="true"></i> CV</a>
                         </li>
                         <li role="presentation">
-                            <a href="mailto:nic.gille@gmail.com"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i> Contact</a>
+                            <a href="mailto:nic.gille@gmail.com" role="menuitem"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i> Contact</a>
                         </li>
                         <li role="presentation">
-                            <a href="https://github.com/Kero76/"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a>
+                            <a href="https://github.com/Kero76/" role="menuitem"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a>
                         </li>
                         <li role="presentation">
-                            <a href="https://www.linkedin.com/in/nicolas-gille-455882149/"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> Linked In</a>
+                            <a href="https://www.linkedin.com/in/nicolas-gille-455882149/" role="menuitem"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> Linked In</a>
                         </li>
                         <li role="presentation">
-                            <a href="https://twitter.com/NickGille?lang=fr"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a>
+                            <a href="https://twitter.com/NickGille?lang=fr" role="menuitem"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a>
                         </li>
                     </ul>
                 </nav>
 
+                <!-- Body of Website-->
                 <section class="col-lg-9 col-md-9 col-sm-7 col-xs-12">
                     <!-- Header block. -->
-                    <h1 class="col-md-offset-4 col-sm-offset-2">Nicolas GILLE</h1>
-                    <h2 class="subtitle col-md-offset-2">&Eacute;tudiant en Master 2 à l'Université de Rouen</h2>
-                    <img class="col-md-offset-4 col-sm-offset-2" src="images/Kero76.png" alt="Photo de profil de Nicolas GILLE">
-                    <p class="short-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac enim neque. Etiam non urna ornare elit placerat placerat ultricies tempor quam. Pellentesque faucibus condimentum.</p>
+                    <header id="home-header">
+                        <h1 class="col-md-offset-4 col-sm-offset-2">Nicolas GILLE</h1>
+                        <h2 class="subtitle col-md-offset-2">&Eacute;tudiant en Master IGIS Génie de l'Informatique Logicielle à l'Université de Rouen</h2>
+                        <img class="col-md-offset-4 col-sm-offset-2" src="images/Kero76.png" alt="Photo de profil de Nicolas GILLE" role="img">
+                    </header>
                     <hr>
+                    <section id="home-project">
+                        <h2>Projets réalisés</h2>
+
+                        <!-- SmartLogger project -->
+                        <article id="smartlogger-project">
+                            <h3>
+                                Project SmartLogger
+                                <span class="badge">
+                                    <i class="fa fa-users" aria-hidden="true"></i> 6
+                                </span>
+                            </h3>
+
+                            <p class="project-summary">
+                                <em><a href="https://github.com/SmartLoggerManagement/SmartLogger" role="link">SmartLogger</a></em> est un projet universitaire pour la société <a role="link" href="https://www.saagie.com/fr">Saagie</a> dont le but est la réalisation d'une application ayant pour but de déterminer la criticité d'un log et d'envoyer une alerte à l'équipe correspondante en cas de problèmes.
+                            </p>
+
+                            <ul class="list-inline">
+                                <li class="label label-primary">Big Data</li>
+                                <li class="label label-primary">Apache-Spark</li>
+                                <li class="label label-primary">Akka-HTTP</li>
+                                <li class="label label-primary">Scala</li>
+                                <li class="label label-primary">Gradle</li>
+                                <li class="label label-primary">UML</li>
+                                <li class="label label-primary">Xtrem Programming</li>
+                                <li class="label label-primary">Kanban</li>
+                                <li class="label label-primary">Github</li>
+                            </ul>
+                        </article>
+
+                        <!-- Media Library / Media client projects -->
+                        <article id="media-library-project">
+                            <h3>
+                                Projets Media Library et Media Client
+                                <span class="badge"> <i class="fa fa-users" aria-hidden="true"></i> 1</span>
+                            </h3>
+
+                            <p class="project-summary">
+                                <em><a href="https://github.com/Kero76/media-library" role="link">Media-Library</a></em> et <em><a href="https://github.com/Kero76/client-media-library" role="link">Media-Client</a></em> sont des projets personnels ayant pour thème la réalisation d'une API Rest permettant la gestion du contenu multimédia que je possède, ainsi qu'une interface client afin de pouvoir accéder facilement au contenu de la médiathèque.
+                            </p>
+
+                            <ul class="list-inline">
+                                <li class="label label-primary">Restful</li>
+                                <li class="label label-primary">Spring-Boot</li>
+                                <li class="label label-primary">Java</li>
+                                <li class="label label-primary">MVN</li>
+                                <li class="label label-primary">Silex</li>
+                                <li class="label label-primary">Twig</li>
+                                <li class="label label-primary">Bootstrap</li>
+                                <li class="label label-primary">HTML5</li>
+                                <li class="label label-primary">CSS3</li>
+                                <li class="label label-primary">PHP</li>
+                                <li class="label label-primary">Composer</li>
+                                <li class="label label-primary">Kanban</li>
+                                <li class="label label-primary">Github</li>
+                            </ul>
+                        </article>
+
+                        <!-- Scims projects -->
+                        <article id="scims-project">
+                            <h3>
+                                Projet Scims
+                                <span class="badge"> <i class="fa fa-users" aria-hidden="true"></i> 2</span>
+                            </h3>
+
+                            <p class="project-summary">
+                                <em><a href="https://github.com/Kero76/SciMS">Scims</a></em> est un projet universitaire consistant à développer un micro-CMS permettant le post d'articles de recherches de tout type.<br>
+                           </p>
+
+                            <ul class="list-inline">
+                                <li class="label label-primary">Micro-CMS</li>
+                                <li class="label label-primary">HTML5</li>
+                                <li class="label label-primary">CSS3</li>
+                                <li class="label label-primary">PHP</li>
+                                <li class="label label-primary">JavaScript</li>
+                                <li class="label label-primary">Bootstrap</li>
+                                <li class="label label-primary">Twig</li>
+                                <li class="label label-primary">MathJax</li>
+                                <li class="label label-primary">Composer</li>
+                                <li class="label label-primary">Kanban</li>
+                                <li class="label label-primary">Github</li>
+                            </ul>
+                        </article>
+
+                        <!-- Scims projects -->
+                        <article id="job-offer-project">
+                            <h3>
+                                Projet Job Offer
+                                <span class="badge"> <i class="fa fa-users" aria-hidden="true"></i> 1</span>
+                            </h3>
+
+                            <p class="project-summary">
+                                <em><a href="https://github.com/Kero76/Job-Offer" role="link">Job Offer</a></em> est un plugin WordPress dont le rôle consiste à mettre en ligne des offres d'emplois et de stages depuis le back-office du site WordPress.
+                           </p>
+
+                            <ul class="list-inline">
+                                <li class="label label-primary">WordPress</li>
+                                <li class="label label-primary">Offre d'emploi</li>
+                                <li class="label label-primary">HTML5</li>
+                                <li class="label label-primary">CSS3</li>
+                                <li class="label label-primary">PHP</li>
+                                <li class="label label-primary">JavaScript</li>
+                                <li class="label label-primary">BitBucket</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <hr>
+
+                     <!-- Footer of Website -->
+                    <footer class="col-lg-9 col-md-9 col-sm-7 col-xs-12">
+                        <p class="text-center">Nicolas GILLE, &eacute;tudiant en Master IGIS Génie de l'Informatique Logicielle à l'Université de Rouen.</p>
+                    </footer>
                 </section>
             </div>
         </div>
