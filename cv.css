@@ -3,6 +3,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Change color for hr tag between each block. */
+hr {
+    background-color: lightgrey;
+}
+
+/* Size of information present on header of CV. */
+#main-information ul li {
+    font-size: 1.1em;
+}
+
 /* Center text about me with title. */
 .about-me-content {
     padding-top: 30px;
@@ -13,8 +23,7 @@ body {
     padding-top: 20px;
 }
 
-
-    /* Remove border on table. */
+/* Remove border on table. */
 .table-borderless > tbody > tr > td {
     border: none;
 }
