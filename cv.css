@@ -3,7 +3,18 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Remove border on table. */
+/* Center text about me with title. */
+.about-me-content {
+    padding-top: 30px;
+}
+
+/* Center content of table skill with title. */
+.skill-content {
+    padding-top: 20px;
+}
+
+
+    /* Remove border on table. */
 .table-borderless > tbody > tr > td {
     border: none;
 }

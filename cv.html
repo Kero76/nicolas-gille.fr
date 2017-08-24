@@ -23,7 +23,7 @@
             <div class="row">
                 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <!-- Header block. -->
-                    <aside>
+                    <aside id="main-information" class="row">
                         <h2>Nicolas GILLE</h2>
                         <ul class="list-unstyled">
                             <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Rouen, France</li>
@@ -32,224 +32,240 @@
                             <li><i class="fa fa-fw fa-phone" aria-hidden="true"></i> 06.59.44.54.58</li>
                             <li><i class="fa fa-fw fa-github" aria-hidden="true"></i> <a href="http://www.github.com/Kero76">Github</a></li>
                         </ul>
+                        <hr class="col-md-12 col-sm-12 col-xs-12">
                     </aside>
-                    <hr>
 
                     <!-- About me block -->
-                    <article id="about-me">
-                        <h2><i class="fa fa-fw fa-user" aria-hidden="true"></i> A propos</h2>
-                        <p class="col-md-offset-3 col-sm-offset-4 col-xs-offset-6">&Eacute;tudiant en informatique en Master GIL 2 d'Informatique au technopôle du Madrillet, à l'Université de Rouen.</p>
+                    <article id="about-me" class="row">
+                        <div class="data-header col-md-3 col-sm-4 col-xs-6">
+                            <h2><i class="fa fa-fw fa-user" aria-hidden="true"></i> &Agrave; propos</h2>
+                        </div>
+                        <div class="data-content col-md-9 col-sm-8 col-xs-6">
+                            <p class="about-me-content">&Eacute;tudiant en informatique en Master GIL 2 d'Informatique au technopôle du Madrillet, à l'Université de Rouen.</p>
+                        </div>
+                        <hr class="col-md-12 col-sm-12 col-xs-12">
                     </article>
-                    <hr>
 
                     <!-- Skills block -->
-                    <article id="skills">
-                        <h2><i class="fa fa-fw fa-code" aria-hidden="true"></i> Compétences</h2>
-                        <table class="table table-borderless col-md-offset-3 col-sm-offset-4 col-xs-offset-6">
-                            <tbody>
-                                <!-- Programmation block -->
-                                <tr>
-                                    <td class="col-md-2 col-sm-4 col-xs-4"><strong>Programmation</strong></td>
-                                    <td>
-                                        <span class="label label-primary">Java</span>
-                                        <span class="label label-primary">Scala</span>
-                                        <span class="label label-primary">C</span>
-                                        <span class="label label-primary">UML</span>
-                                        <span class="label label-primary">Design Pattern</span>
-                                    </td>
-                                </tr>
+                    <article id="skills" class="row">
+                        <div class="data-header col-md-3 col-sm-4 col-xs-6">
+                            <h2><i class="fa fa-fw fa-code" aria-hidden="true"></i> Compétences</h2>
+                        </div>
+                        <div class="data-content col-md-9 col-sm-8 col-xs-6 skill-content">
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <!-- Programmation block -->
+                                    <tr>
+                                        <td class="col-md-2 col-sm-4 col-xs-4"><strong>Programmation</strong></td>
+                                        <td class="col-md-10 col-sm-8 col-xs-8">
+                                            <span class="label label-primary">Java</span>
+                                            <span class="label label-primary">Scala</span>
+                                            <span class="label label-primary">C</span>
+                                            <span class="label label-primary">UML</span>
+                                            <span class="label label-primary">Design Pattern</span>
+                                        </td>
+                                    </tr>
 
-                                <!-- Web block -->
-                                <tr>
-                                    <td class="col-md-2 col-sm-4 col-xs-4"><strong>Web</strong></td>
-                                    <td>
-                                        <span class="label label-primary">PHP</span>
-                                        <span class="label label-primary">HTML</span>
-                                        <span class="label label-primary">CSS</span>
-                                        <span class="label label-primary">XML</span>
-                                        <span class="label label-primary">JavaScript</span>
-                                        <span class="label label-primary">Bootstrap</span>
-                                        <span class="label label-primary">Silex</span>
-                                        <span class="label label-primary">Spring-Boot</span>
-                                    </td>
-                                </tr>
+                                    <!-- Web block -->
+                                    <tr>
+                                        <td class="col-md-2 col-sm-4 col-xs-4"><strong>Web</strong></td>
+                                        <td class="col-md-10 col-sm-8 col-xs-8">
+                                            <span class="label label-primary">PHP</span>
+                                            <span class="label label-primary">HTML</span>
+                                            <span class="label label-primary">CSS</span>
+                                            <span class="label label-primary">XML</span>
+                                            <span class="label label-primary">JavaScript</span>
+                                            <span class="label label-primary">Bootstrap</span>
+                                            <span class="label label-primary">Silex</span>
+                                            <span class="label label-primary">Spring-Boot</span>
+                                        </td>
+                                    </tr>
 
-                                <!-- Data block -->
-                                <tr>
-                                    <td class="col-md-2 col-sm-4 col-xs-4"><strong>Données</strong></td>
-                                    <td>
-                                        <span class="label label-primary">MySQL</span>
-                                        <span class="label label-primary">Oracle</span>
-                                        <span class="label label-primary">PostgreSQL</span>
-                                    </td>
-                                </tr>
+                                    <!-- Data block -->
+                                    <tr>
+                                        <td class="col-md-2 col-sm-4 col-xs-4"><strong>Données</strong></td>
+                                        <td class="col-md-10 col-sm-8 col-xs-8">
+                                            <span class="label label-primary">MySQL</span>
+                                            <span class="label label-primary">Oracle</span>
+                                            <span class="label label-primary">PostgreSQL</span>
+                                        </td>
+                                    </tr>
 
-                                <!-- Test block -->
-                                <tr>
-                                    <td class="col-md-2 col-sm-4 col-xs-4"><strong>Test</strong></td>
-                                    <td>
-                                        <span class="label label-primary">JUnit</span>
-                                        <span class="label label-primary">PHPUnit</span>
-                                        <span class="label label-primary">ScalaTest</span>
-                                        <span class="label label-primary">TDD</span>
-                                    </td>
-                                </tr>
+                                    <!-- Test block -->
+                                    <tr>
+                                        <td class="col-md-2 col-sm-4 col-xs-4"><strong>Test</strong></td>
+                                        <td class="col-md-10 col-sm-8 col-xs-8">
+                                            <span class="label label-primary">JUnit</span>
+                                            <span class="label label-primary">PHPUnit</span>
+                                            <span class="label label-primary">ScalaTest</span>
+                                            <span class="label label-primary">TDD</span>
+                                        </td>
+                                    </tr>
 
-                                <!-- Management block -->
-                                <tr>
-                                    <td class="col-md-2 col-sm-4 col-xs-4"><strong>Gestion de Projet</strong></td>
-                                    <td>
-                                        <span class="label label-primary">Xtrem Programming</span>
-                                        <span class="label label-primary">Kanban</span>
-                                        <span class="label label-primary">Git</span>
-                                        <span class="label label-primary">Github</span>
-                                        <span class="label label-primary">BitBucket</span>
-                                        <span class="label label-primary">MantisBT</span>
-                                    </td>
-                                </tr>
+                                    <!-- Management block -->
+                                    <tr>
+                                        <td class="col-md-2 col-sm-4 col-xs-4"><strong>Gestion de Projet</strong></td>
+                                        <td class="col-md-10 col-sm-8 col-xs-8">
+                                            <span class="label label-primary">Xtrem Programming</span>
+                                            <span class="label label-primary">Kanban</span>
+                                            <span class="label label-primary">Git</span>
+                                            <span class="label label-primary">Github</span>
+                                            <span class="label label-primary">BitBucket</span>
+                                            <span class="label label-primary">MantisBT</span>
+                                        </td>
+                                    </tr>
 
-                                <!-- Network block -->
-                                <tr>
-                                    <td class="col-md-2 col-sm-4 col-xs-4"><strong>Réseau</strong></td>
-                                    <td>
-                                        <span class="label label-primary">OSI</span>
-                                        <span class="label label-primary">HTTP</span>
-                                        <span class="label label-primary">Github</span>
-                                    </td>
-                                </tr>
+                                    <!-- Network block -->
+                                    <tr>
+                                        <td class="col-md-2 col-sm-4 col-xs-4"><strong>Réseau</strong></td>
+                                        <td class="col-md-10 col-sm-8 col-xs-8">
+                                            <span class="label label-primary">OSI</span>
+                                            <span class="label label-primary">HTTP</span>
+                                            <span class="label label-primary">Github</span>
+                                        </td>
+                                    </tr>
 
-                                <!-- Operating System block -->
-                                <tr>
-                                    <td class="col-md-2 col-sm-4 col-xs-4"><strong>Système d'Exploitation</strong></td>
-                                    <td>
-                                        <span class="label label-primary">Windows 7</span>
-                                        <span class="label label-primary">Windows 10</span>
-                                        <span class="label label-primary">Ubuntu</span>
-                                        <span class="label label-primary">Fedora</span>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    <!-- Operating System block -->
+                                    <tr>
+                                        <td class="col-md-2 col-sm-4 col-xs-4"><strong>Système d'Exploitation</strong></td>
+                                        <td class="col-md-10 col-sm-8 col-xs-8">
+                                            <span class="label label-primary">Windows 7</span>
+                                            <span class="label label-primary">Windows 10</span>
+                                            <span class="label label-primary">Ubuntu</span>
+                                            <span class="label label-primary">Fedora</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <hr class="col-md-12 col-sm-12 col-xs-12">
                     </article>
-                    <hr>
 
                     <!-- Professional experiences -->
-                    <article id="professional-experiences">
-                        <h2><i class="fa fa-fw fa-suitcase" aria-hidden="true"></i> Expériences</h2>
-                        <!-- . -->
-                        <article class="col-md-offset-3 col-sm-offset-4 col-xs-offset-6">
-                            <h3>Développeur Logiciel - <a href="https://www.saagie.com/fr">Saagie</a></h3>
-                            <ul class="list-inline list-unstyled">
-                                <li class="date">
-                                    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-                                    Septembre 2015 à Mai 2016
-                                </li>
-                                <li class="place">
-                                    <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
-                                    Rouen, France
-                                </li>
-                            </ul>
+                    <article id="professional-experiences" class="row">
+                        <div class="data-header col-md-3 col-sm-4 col-xs-6">
+                            <h2><i class="fa fa-fw fa-suitcase" aria-hidden="true"></i> Expériences</h2>
+                        </div>
+                        <div class="data-content col-md-9 col-sm-8 col-xs-6">
+                            <!-- Saagie. -->
+                            <article>
+                                <h3>Développeur Logiciel - <a href="https://www.saagie.com/fr">Saagie</a></h3>
+                                <ul class="list-inline list-unstyled">
+                                    <li class="date">
+                                        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                                        Septembre 2015 à Mai 2016
+                                    </li>
+                                    <li class="place">
+                                        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+                                        Rouen, France
+                                    </li>
+                                </ul>
 
-                            <p>Projet universitaire : SmartLogger.</p>
-                            <ul>
-                                <li>Réalisation d'une architecture logicielle complète.</li>
-                                <li>Création d'une application en Scala capable de gérer la criticité des logs et d'envoyer une alerte en cas de problème.</li>
-                                <li>Mise en place de méthode AGILE : Kanban & Xtrem Programming.</li>
-                            </ul>
-                        </article>
+                                <p>Projet universitaire : SmartLogger.</p>
+                                <ul>
+                                    <li>Réalisation d'une architecture logicielle complète.</li>
+                                    <li>Création d'une application en Scala capable de gérer la criticité des logs et d'envoyer une alerte en cas de problème.</li>
+                                    <li>Mise en place de méthode AGILE : Kanban & Xtrem Programming.</li>
+                                </ul>
+                            </article>
 
-                        <!-- CCAMY Systèmes. -->
-                        <article class="col-md-offset-3 col-sm-offset-4 col-xs-offset-6">
-                            <h3>Développeur Web - <a href="http://ccamy-systemes.fr/fr/">CCAMY Systèmes</a></h3>
-                            <ul class="list-inline list-unstyled">
-                                <li class="date">
-                                    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-                                    Mai - Août 2016
-                                </li>
-                                <li class="place">
-                                    <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
-                                    Saint-Etienne-du-Rouvray, France
-                                </li>
-                            </ul>
+                            <!-- CCAMY Systèmes. -->
+                            <article>
+                                <h3>Développeur Web - <a href="http://ccamy-systemes.fr/fr/">CCAMY Systèmes</a></h3>
+                                <ul class="list-inline list-unstyled">
+                                    <li class="date">
+                                        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                                        Mai - Août 2016
+                                    </li>
+                                    <li class="place">
+                                        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+                                        Saint-Etienne-du-Rouvray, France
+                                    </li>
+                                </ul>
 
-                            <p>Stage de validation de la Licence : </p>
-                            <ul>
-                                <li>Migration du site de la société sous WordPress.</li>
-                                <li>Création des sites <a href="http://simulatio.ccamy-systemes.fr/fr/">Simulatio.fr</a> et <a href="http://emulatio.fr/fr/">Emulatio.fr</a></li>
-                                <li>Rédaction d'une documentation pour la mise en place d'un système MantisBT.</li>
-                                <li>Rédaction d'une documentation pour l'utilisation des sites fait sous WordPress.</li>
-                            </ul>
-                        </article>
+                                <p>Stage de validation de la Licence : </p>
+                                <ul>
+                                    <li>Migration du site de la société sous WordPress.</li>
+                                    <li>Création des sites <a href="http://simulatio.ccamy-systemes.fr/fr/">Simulatio.fr</a> et <a href="http://emulatio.fr/fr/">Emulatio.fr</a></li>
+                                    <li>Rédaction d'une documentation pour la mise en place d'un système MantisBT.</li>
+                                    <li>Rédaction d'une documentation pour l'utilisation des sites fait sous WordPress.</li>
+                                </ul>
+                            </article>
 
-                        <!-- FranceWatts -->
-                        <article class="col-md-offset-3 col-sm-offset-4 col-xs-offset-6">
-                            <h3>Développeur Web - <a href="http://www.francewatts.fr/">FranceWatts</a></h3>
-                            <ul class="list-inline list-unstyled">
-                                <li class="date">
-                                    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-                                    Avril - Juin 2014
-                                </li>
-                                <li class="place">
-                                    <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
-                                    Barentin, France
-                                </li>
-                            </ul>
+                            <!-- FranceWatts -->
+                            <article>
+                                <h3>Développeur Web - <a href="http://www.francewatts.fr/">FranceWatts</a></h3>
+                                <ul class="list-inline list-unstyled">
+                                    <li class="date">
+                                        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                                        Avril - Juin 2014
+                                    </li>
+                                    <li class="place">
+                                        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+                                        Barentin, France
+                                    </li>
+                                </ul>
 
-                            <p>Stage de validation du DUT : </p>
-                            <ul>
-                                <li>Correctif du HTML/CSS du site.</li>
-                                <li>Amélioration du référencement web du site internet.</li>
-                            </ul>
-                        </article>
+                                <p>Stage de validation du DUT : </p>
+                                <ul>
+                                    <li>Correctif du HTML/CSS du site.</li>
+                                    <li>Amélioration du référencement web du site internet.</li>
+                                </ul>
+                            </article>
+                        </div>
+                        <hr class="col-md-12 col-sm-12 col-xs-12">
                     </article>
-                    <hr>
 
-                    <article id="scholar-formations">
-                        <h2><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Formations</h2>
-                        <!-- Master IGIS GIL -->
-                        <article class="col-md-offset-3 col-sm-offset-4 col-xs-offset-6">
-                            <h3>Master IGIS-GIL</h3>
-                            <ul class="list-inline list-unstyled">
-                                <li class="date">
-                                    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-                                    2016 - 1018
-                                </li>
-                                <li class="place">
-                                    <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
-                                    Technopôle du Madrillet - Université de Rouen, France
-                                </li>
-                            </ul>
-                        </article>
+                    <article id="scholar-formations" class="row">
+                        <div class="data-header col-md-3 col-sm-4 col-xs-6">
+                            <h2><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Formations</h2>
+                        </div>
+                        <div class="data-content col-md-9 col-sm-8 col-xs-6">
+                            <!-- Master IGIS GIL -->
+                            <article class="">
+                                <h3>Master IGIS-GIL</h3>
+                                <ul class="list-inline list-unstyled">
+                                    <li class="date">
+                                        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                                        2016 - 1018
+                                    </li>
+                                    <li class="place">
+                                        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+                                        Technopôle du Madrillet - Université de Rouen, France
+                                    </li>
+                                </ul>
+                            </article>
 
-                        <!-- Licence Informatique -->
-                        <article class="col-md-offset-3 col-sm-offset-4 col-xs-offset-6">
-                            <h3>Licence Informatique</h3>
-                            <ul class="list-inline list-unstyled">
-                                <li class="date">
-                                    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-                                    2015 - 1016
-                                </li>
-                                <li class="place">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    Technopôle du Madrillet - Université de Rouen, France
-                                </li>
-                            </ul>
-                        </article>
+                            <!-- Licence Informatique -->
+                            <article>
+                                <h3>Licence Informatique</h3>
+                                <ul class="list-inline list-unstyled">
+                                    <li class="date">
+                                        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                                        2015 - 1016
+                                    </li>
+                                    <li class="place">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Technopôle du Madrillet - Université de Rouen, France
+                                    </li>
+                                </ul>
+                            </article>
 
-                        <!-- DUT Informatique -->
-                        <article class="col-md-offset-3 col-sm-offset-4 col-xs-offset-6">
-                            <h3>DUT Informatique</h3>
-                            <ul class="list-inline list-unstyled">
-                                <li class="date">
-                                    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-                                    2012 - 2014
-                                </li>
-                                <li class="place">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    Institut Universitaire et Technologique - Université du Havre, France
-                                </li>
-                            </ul>
-                        </article>
+                            <!-- DUT Informatique -->
+                            <article>
+                                <h3>DUT Informatique</h3>
+                                <ul class="list-inline list-unstyled">
+                                    <li class="date">
+                                        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                                        2012 - 2014
+                                    </li>
+                                    <li class="place">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Institut Universitaire et Technologique - Université du Havre, France
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
                     </article>
                 </section>
             </div>
